@@ -57,7 +57,6 @@ app.use(
 
 app.get("/api/v1", (req, res) => {
   res.send("Hello World!!");
-  console.log("it ran");
 });
 
 // localhost:3000/api/v1/post/
